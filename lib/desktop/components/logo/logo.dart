@@ -11,7 +11,7 @@ class Logo extends StatelessWidget {
         child: Text(
       "GeekBang Cheaper",
       style: TextStyle(
-          fontSize: 46,
+          fontSize: 40,
           foreground: Paint()
             ..shader = const LinearGradient(colors: [
               Color.fromARGB(255, 255, 204, 0),

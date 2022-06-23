@@ -27,7 +27,8 @@ class _MainHomeState extends State<MainHome> {
               },
             ),
           ),
-          AllCourses(),
+          // Expanded(child: ),
+          Container(margin: EdgeInsets.only(top: 42.0), child: AllCourses())
         ],
       ),
     );
